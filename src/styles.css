@@ -1,0 +1,32 @@
+body {
+	background: linear-gradient(-45deg, #f3c5b7, #df8dad, #84c3da, #84ecd4);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.card button{
+    opacity: 0.5 !important;
+    transition: 0.25s;
+}
+.card button:hover{
+    opacity: 1 !important;
+}
+
+.btn-outline:hover{
+    background-color: #32aedb;
+    color: white;
+}
+/* li *{
+    color:#32aedb
+} */
